@@ -5,11 +5,11 @@
 # ToDo: add optional mask
 
 if  [ $# -ne 1 ]; then
-    echo "Usage: shell script to calculate flip angle map from AFI "
+    echo "Usage: shell script to calculate flip angle map from actual flip angle imaging (AFI) "
     echo ""
     echo "       afi.sh <input>"
     echo ""
-    echo "e.g.,  downsample.sh image"
+    echo "e.g.,  afi.sh image"
     echo " N.B.  image is assumed to have 2 volumes"
     echo ""
     echo "output: image_fa"
