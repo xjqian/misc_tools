@@ -38,7 +38,7 @@ esac
 newpixdim=`echo "\${oldpixdim} * \${avg}" | bc`
 
 # prepare initial dummy output file
-imgavg=${img}_avg${avg}
+imgavg=${img}_avg${avg}${dir}
 case ${dir} in
 x) fslroi ${img} ${imgavg} 0 1 0 -1 0 -1
    ;;
